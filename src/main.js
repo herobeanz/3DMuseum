@@ -36,7 +36,7 @@ renderer.clear();
 container.appendChild(renderer.domElement);
 
 // ---------- Camera ---------- 
-let fov = 68; // 68° thay vì 85° — giảm méo hình và chóng mặt
+let fov = 68;
 let aspect = window.innerWidth / window.innerHeight;
 let near = 0.1;
 let far = 1000;
